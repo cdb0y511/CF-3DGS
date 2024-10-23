@@ -36,7 +36,7 @@ import json
 import gzip
 import torch
 import torch.nn.functional as F
-torch.hub.help("intel-isl/MiDaS", "DPT_BEiT_L_384", force_reload=True)
+torch.hub.help("intel-isl/MiDaS", "DPT_BEiT_L_384", force_reload=False)
 
 
 class GaussianTrainer(object):

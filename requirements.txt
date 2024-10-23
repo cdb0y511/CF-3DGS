@@ -7,6 +7,8 @@ pyyaml
 plyfile
 kornia
 open3d
+einops
+evo
 timm==0.6.11
 submodules/diff-gaussian-rasterization
 submodules/simple-knn
