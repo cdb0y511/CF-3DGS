@@ -65,10 +65,11 @@ python run_cf3dgs.py -s data/Tanks/Francis \ # change the scene path
 ### Depth Estimation
 https://github.com/isl-org/MiDaS?tab=readme-ov-file provides the pretrained model for depth estimation. You can download the model and run the following command to get the depth map.
 ```bash
-wget https://github.com/isl-org/MiDaS/releases/download/v3_1/dpt_beit_large_384.pt
+wget https://github.com/isl-org/MiDaS/releases/download/v3/dpt_hybrid_384.pt
 wget https://codeload.github.com/isl-org/MiDaS/legacy.zip/refs/heads/master
 ```
-put in (~/.cache/torch/hub) 
+put in (~/.cache/torch/hub/checkpoints)
+put in (~/.cache/torch/hub/intel-isl_MiDaS_master) 
 ### Evaluation
 ```bash
 # pose estimation
