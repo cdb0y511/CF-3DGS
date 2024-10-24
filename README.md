@@ -67,6 +67,7 @@ https://github.com/isl-org/MiDaS?tab=readme-ov-file provides the pretrained mode
 ```bash
 wget https://github.com/isl-org/MiDaS/releases/download/v3/dpt_hybrid_384.pt
 wget https://download.pytorch.org/models/vgg16-397923af.pth
+wget https://raw.githubusercontent.com/richzhang/PerceptualSimilarity/master/lpips/weights/v0.1/vgg.pth
 wget https://codeload.github.com/isl-org/MiDaS/legacy.zip/refs/heads/master
 ```
 put in (~/.cache/torch/hub/checkpoints)
